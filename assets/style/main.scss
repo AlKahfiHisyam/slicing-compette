@@ -37,6 +37,18 @@ $font-weight: (
 
 body {
     background-color: $page-bg;
+
+    .animated {
+        animation: up-down 2s ease-in-out infinite alternate-reverse both;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate-reverse;
+        animation-fill-mode: both;
+        animation-play-state: running;
+        animation-name: up-down;
+    }
   
     nav {
       background-color: transparent !important;

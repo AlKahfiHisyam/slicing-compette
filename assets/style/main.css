@@ -18,6 +18,25 @@ body {
   background-color: #fafaff;
 }
 
+body .animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-name: up-down;
+          animation-name: up-down;
+}
+
 body nav {
   background-color: transparent !important;
 }
