@@ -276,12 +276,12 @@ body {
             box-shadow: $light-blue;
           }
         }
+        .count {
+          margin-left: -30px !important; 
+          border-radius: 50px !important; 
+          positon: absolute !important;
+        }
       }
-    }
-    .count {
-      margin-left: -30px; 
-      border-radius: 50px; 
-      positon: absolute !important;
     }
   }
   
