@@ -1,16 +1,16 @@
+// Color
 $light: #ffffff;
 $dark: #0f1d37;
 $page-bg: #fafaff;
 $grey: #cacad2;
 $light-green: #b0c3c9;
 $dark-green: #10495c;
-
 $yellow: #f2ad5f;
 $dark-yellow: #986121;
-
 $light-blue: #ebfafc;
 $sky-blue: #65d9e4;
 
+// Font
 @import url("https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600&display=swap");
 
 * {
@@ -23,6 +23,7 @@ $font-weight: (
   "semi-bold": 600,
 );
 
+// Button
 .btn-master {
     padding: 15px 50px;
     font-weight: map-get($map: $font-weight, $key: medium);
