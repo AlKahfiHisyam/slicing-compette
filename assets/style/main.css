@@ -143,10 +143,15 @@ body ::-ms-input-placeholder {
 }
 
 img.hero-background {
-  width: 100%;
+  width: 100% !important;
+  height: 900px;
   z-index: -1;
   position: absolute;
   top: 0;
+  background-position: center center !important;
+  background-repeat: unset !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
 }
 
 section.hero {
