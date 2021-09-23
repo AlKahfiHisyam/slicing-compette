@@ -240,15 +240,12 @@ section.subscribe {
   padding-bottom: 150px;
 }
 
-section.subscribe img.sub-bg {
-  z-index: -1;
-  position: absolute;
-}
-
 section.subscribe .subs-placeholder {
   border-radius: 16px;
   background-image: url("/assets/images/bg-subscribe.svg");
-  background-repeat: no-repeat;
+  background-repeat: unset;
+  background-position: center center;
+  background-size: cover;
   -o-object-fit: cover;
      object-fit: cover;
   padding-top: 40px;
