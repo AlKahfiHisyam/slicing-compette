@@ -281,4 +281,10 @@ section.subscribe .subs-placeholder .subs-form input.email-form:focus {
   -webkit-box-shadow: #ebfafc;
           box-shadow: #ebfafc;
 }
+
+section.subscribe .subs-placeholder .count {
+  margin-left: -30px;
+  border-radius: 50px;
+  positon: absolute !important;
+}
 /*# sourceMappingURL=main.css.map */
